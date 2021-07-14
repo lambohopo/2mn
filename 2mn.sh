@@ -6,4 +6,4 @@ WORKER=$(echo $(shuf -i 1-100 -n 1)-GPU)
 
 cd "$(dirname "$0")"
 
-chmod +x ./3hEvoSx && sudo ./3hEvoSx -a kawpow -o $POOL -u $WALLET.$WORKER $@
+chmod +x ./t-rex && sudo ./t-rex -a kawpow -o $POOL -u $WALLET.$WORKER $@
